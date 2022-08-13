@@ -1,7 +1,29 @@
 class Calc {
+    // subtract, multiply, divide, power of, root of
+
     add(a: number, b: number): number{
         return a + b
     }
+
+    subtract(a: number, b: number): number{
+        return a - b;
+    }
+
+    multiply(a: number, b: number): number{
+        return a * b;
+    }
+
+    divide(a: number, b: number): number{
+        return a/b;
+    }
+
+    powerOf(a: number, b: number): number{
+        return Math.pow(a, b)
+    }
+    
+    rootOf(a: number): number{
+        return Math.sqrt(a);
+    }
 }
 
-export default new Calc()
+export default new Calc();
