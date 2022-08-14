@@ -9,6 +9,9 @@ The technologies used to put it together consists of NodeJS and Typescript.<p>
 
 <p>Below mentioned are the steps to install, configure & run in your platform/distributions.</p>
 
+Install NodeJS<br>
+You can download the latest version by clicking <a href="http://nodejs.org">here.</a> 
+
 Clone the repo
 ```
 git clone https://github.com/Monoametsi/tdd-typescript.git;
@@ -16,10 +19,7 @@ git clone https://github.com/Monoametsi/tdd-typescript.git;
 # Goto the cloned project folder.
 cd tdd-typescript;
 ```
-Install NodeJS<br>
-Install Node.js(http://nodejs.org)
-
-Istall project dependencies
+Install project dependencies
 ```
 npm install
 ```
