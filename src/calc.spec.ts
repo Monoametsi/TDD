@@ -3,7 +3,7 @@ import calc from './calc';
 describe('Calc', () => {
     //Pass add
     test('should add 6 to 4', () => {
-        expect(calc.add(6, 4)).toBe(10)
+        expect(calc.add(6, 4)).toBe(10);
     });
 
     //Fail add
