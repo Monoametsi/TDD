@@ -6,10 +6,10 @@ describe('Calc', () => {
         expect(calc.add(6, 4)).toBe(10);
     });
 
-    test('should throw failure if its not implemented', () => {
-        const num: any = '4';
-       expect(() => { calc.add(6, num) }).toThrow("you must provide a number")
-    });
+    // test('should throw failure if its not implemented', () => {
+    //     const num: any = '4';
+    //    expect(() => { calc.add(6, num) }).toThrow("you must provide a number")
+    // });
 
     //Pass subtract
     test('should return 2 for subtract(6, 4)', () => {

@@ -4,9 +4,9 @@ class Calc {
     add(a: number, b: number): number{
         const result: number = a + b;
 
-        if(typeof result !== 'number'){
-            throw new Error('you must provide a number');
-        }
+        // if(typeof result !== 'number'){
+        //     throw new Error('you must provide a number');
+        // }
 
         return result
     }
