@@ -2,13 +2,13 @@ class Calc {
     // subtract, multiply, divide, power of, root of
 
     add(a: number, b: number): number{
-        const result: number = a + b;
+        // const result: number = a + b;
 
         // if(typeof result !== 'number'){
         //     throw new Error('you must provide a number');
         // }
 
-        return result
+        return a + b;
     }
 
     subtract(a: number, b: number): number{
